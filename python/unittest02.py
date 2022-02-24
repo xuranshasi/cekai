@@ -66,5 +66,5 @@ if __name__ == '__main__':
     # unittest.TextTestRunner().run(suiteall)
 
     # 指定路径下所有test0开头的PY文件
-    discover = unittest.defaultTestLoader.discover("./", "test0*.py")
+    discover = unittest.defaultTestLoader.discover("../", "test0*.py")
     unittest.TextTestRunner().run(discover)
